@@ -1,8 +1,143 @@
----
-layout: default
-title: Hank Quinlan, Horrible Cop
----
-<div class="blurb">
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FCF0CC;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background-color: #A64253;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/a5/2d/b3/a52db3ade35e438e25caab07f6e6020b.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+header p {
+  font-size: 30px;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+.bg-socialmedia {
+  background-color: #A64253;
+  color: #fff;
+}
+
+.social-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-ul a {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #A64253;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+
+<nav id="navbar">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#social">Social</a>
+</nav>
+
+<header>
+  <h1> Hello! ✌ </h1>
+  <p> My name is Calvin Skalla </p>
+  <p> and I am a Data Scientist </p>
+</header>
+
+<section id="projects">
+  <h2> Projects </h2>
+  <div class="project">
+    <img src="" alt="">
+    <p>Predicting Airbnbs</p>
+  </div>
+  <div class="project">
+    <img src="" alt="">
+    <p>Predicting Wine Quality and Type</p>
+  </div>
+  </div>
+</section>
+
+<section id="social" class="bg-socialmedia"> 
+  <h2> Social Media</h2>
+  <p> You can find me on </p>
+  <ul class="social-ul">
+    <li><a href="https://twitter.com/CalvinSkalla" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/calvin-skalla-097288172/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://github.com/cjskalla" target="_blank"><i class="fab fa-github"></i></a></li>
+  </ul>
+  
+</section>
+
+<footer> Made by Calvin Skalla</footer>
