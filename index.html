@@ -1,21 +1,23 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #FCF0CC;
-  font-family: 'Lato', sans-serif;
+  background-color: #F8F9F9;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 10px;
 }
 
 nav {
-  background-color: #A64253;
+  background-color: #909497;
   color: #fff;
   display: flex;
   justify-content: flex-end;
   padding: 20px;
+  border-radius: 10px;
 }
 
 nav a {
@@ -28,6 +30,7 @@ header {
   background-image: url("https://i.pinimg.com/originals/a5/2d/b3/a52db3ade35e438e25caab07f6e6020b.jpg");
   background-size: cover;
   background-position: center center;
+  border-radius: 10px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -46,6 +49,7 @@ header::after {
   right: 0;
   bottom: 0;
   opacity: 0.5;
+  border-radius: 10px;
 }
 
 header * {
@@ -57,6 +61,7 @@ header h1 {
   font-size: 60px;
   margin-bottom: 5px;
   margin-top: 0;
+  letter-spacing: 0.1em;
 }
 
 header p {
@@ -67,6 +72,7 @@ header p {
 section {
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 section h2 {
@@ -77,8 +83,19 @@ section p {
   margin-top: 0;
 }
 
+.bg-about {
+  background-color: #909497;
+  color: #fff;
+}
+
+.bg-project {
+  background-color: #797D7F;
+  color: #fff;
+}
+
+
 .bg-socialmedia {
-  background-color: #A64253;
+  background-color: #626567;
   color: #fff;
 }
 
@@ -97,10 +114,11 @@ section p {
 }
 
 footer {
-  background-color: #A64253;
+  background-color: #000;
   color: #fff;
   padding: 10px;
   text-align: center;
+  border-radius: 10px;
 }
 </style>
 
@@ -111,20 +129,24 @@ footer {
 </nav>
 
 <header>
-  <h1> Hello! ✌ </h1>
-  <p> My name is Calvin Skalla </p>
-  <p> and I am a Data Scientist </p>
+  <h1> Calvin Skalla </h1>
+  <p> Data Scientist </p>
 </header>
 
-<section id="projects">
+<section id="about" class="bg-about">
+  <h2> About Me </h2>
+  <p> (Paragraph about myself) </p>
+</section>
+
+<section id="projects" class="bg-project">
   <h2> Projects </h2>
   <div class="project">
     <img src="" alt="">
-    <p>Predicting Airbnbs</p>
+    <p>Airbnb Data</p>
   </div>
   <div class="project">
     <img src="" alt="">
-    <p>Predicting Wine Quality and Type</p>
+    <p>Wine Data</p>
   </div>
   </div>
 </section>
