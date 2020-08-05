@@ -80,8 +80,8 @@ section p {
 }
 
 .proj-img {
-  width: 50%;
-  height: auto;
+  width: 15em;
+  height: 10em;
   border-radius: 10%;
 }
 
@@ -94,7 +94,6 @@ section p {
   background-color: #000;
   color: #fff;
 }
-
 
 .bg-socialmedia {
   background-color: #000;
