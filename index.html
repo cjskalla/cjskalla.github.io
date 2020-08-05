@@ -1,132 +1,14 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F8F9F9;
-  font-family: 'Oswald', sans-serif;
-  border-radius: 10px;
-}
-
-nav {
-  background-color: #909497;
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-nav a {
-  color: #fff;
-  margin-left: 20px;
-  text-decoration: none;
-}
-
-header {
-  background-image: url("https://i.pinimg.com/originals/a5/2d/b3/a52db3ade35e438e25caab07f6e6020b.jpg");
-  background-size: cover;
-  background-position: center center;
-  border-radius: 10px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  position: relative;
-}
-
-header::after {
-  content: '';
-  background-color: #000;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.5;
-  border-radius: 10px;
-}
-
-header * {
-  position: relative;
-  z-index: 1;
-}
-
-header h1 {
-  font-size: 60px;
-  margin-bottom: 5px;
-  margin-top: 0;
-  letter-spacing: 0.1em;
-}
-
-header p {
-  font-size: 30px;
-  margin: 0;
-}
-
-section {
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-section h2 {
-  margin: 0;
-}
-
-section p {
-  margin-top: 0;
-}
-
-.bg-about {
-  background-color: #909497;
-  color: #fff;
-}
-
-.bg-project {
-  background-color: #797D7F;
-  color: #fff;
-}
-
-
-.bg-socialmedia {
-  background-color: #626567;
-  color: #fff;
-}
-
-.social-ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social-ul a {
-  color: #fff;
-  font-size: 30px;
-  margin: 0 10px;
-}
-
-footer {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-}
-</style>
-
-<nav id="navbar">
+  <nav id="navbar">
   <a href="#about">About</a>
   <a href="#projects">Projects</a>
   <a href="#social">Social</a>
-</nav>
+  </nav>
 
 <header>
   <h1> Calvin Skalla </h1>
@@ -145,7 +27,9 @@ footer {
     <p>Airbnb Data</p>
   </div>
   <div class="project">
-    <img src="" alt="">
+    <a href="/projects/Interactive_Wine.html/">
+    <img src="https://lh3.googleusercontent.com/proxy/qo-54Baj63qpl5QnYuDPYgM9cDl6uLNbvso_htJX6ogAMCop2vYHWbSiEKV6-8mAHvT5_S2K0FwmjCDFDIp3xygqgB5y9lwHu1vkKoKQXeM0xZ3CEQjHn2NBpA" alt="Wine Project">
+    </a>
     <p>Wine Data</p>
   </div>
   </div>
@@ -155,11 +39,13 @@ footer {
   <h2> Social Media</h2>
   <p> You can find me on </p>
   <ul class="social-ul">
-    <li><a href="https://twitter.com/CalvinSkalla" target="_blank"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="https://www.linkedin.com/in/calvin-skalla-097288172/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-    <li><a href="https://github.com/cjskalla" target="_blank"><i class="fab fa-github"></i></a></li>
+    <li><a href="https://twitter.com/CalvinSkalla" target="_blank" class="fa fa-twitter"></a></li>
+    <li><a href="https://www.linkedin.com/in/calvin-skalla-097288172/" target="_blank" class="fa fa-linkedin"></a></li>
+    <li><a href="https://github.com/cjskalla" target="_blank" class="fa fa-github"></a></li>
   </ul>
+
   
 </section>
 
 <footer> Made by Calvin Skalla</footer>
+</html>
