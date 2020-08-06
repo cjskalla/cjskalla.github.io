@@ -15,12 +15,13 @@ nav {
   color: #fff;
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 1vw;
+  font-size: 2vw;
 }
 
 nav a {
   color: #fff;
-  margin-left: 20px;
+  margin-left: 1vw;
   text-decoration: none;
 }
 
@@ -33,7 +34,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 75vh;
   position: relative;
 }
 
@@ -54,19 +55,19 @@ header * {
 
 header h1 {
   text-align: center;
-  font-size: 60px;
-  margin-bottom: 5px;
+  font-size: 6vw;
+  margin-bottom: 0%;
   margin-top: 0;
   letter-spacing: 0.1em;
 }
 
 header p {
-  font-size: 30px;
+  font-size: 4vw;
   margin: 0;
 }
 
 section {
-  padding: 20px;
+  padding: 2vw;
 }
 
 .column {
@@ -87,18 +88,19 @@ section {
 
 .h2-about {
   text-align: center;
+  font-size: 3vw;
 }
 
 .p-about {
   text-align: center;
+  font-size: 2vw;
 }
 
 .img-about {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%;
+  margin: auto;
+  width: 75%;
+  height: 75%;
   border-radius: 25%;
 }
 
@@ -109,19 +111,20 @@ section {
 
 .h2-proj {
   text-align: center;
+  font-size: 3vw;
 }
 
 .p-proj {
   text-align: center;
+  font-size: 2vw;
 }
 
 .img-proj {
-  width: 15em;
-  height: 10em;
+  width: 40vw;
+  height: 25vh;
   border-radius: 10%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .bg-socialmedia {
@@ -131,10 +134,12 @@ section {
 
 .h2-social {
   text-align: center;
+  font-size: 3vw;
 }
 
 .p-social {
   text-align: center;
+  font-size: 2vw
 }
 
 .social-ul {
