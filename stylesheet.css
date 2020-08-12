@@ -1,0 +1,622 @@
+<style>
+
+  /* Smartphone styles */
+  @media only screen 
+  and (min-width: 200px)
+  and (max-width: 899px)
+  and (-webkit-min-device-pixel-ratio: 3) 
+  { 
+    body {
+      background-color: #F8F9F9;
+    }
+
+    nav {
+      background-color: #696969;
+      color: #fff;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 0.5rem;
+      text-decoration: none;
+    }
+
+    header {
+      background-image: url("cjskalla.github.io/projects/trestle_trail.jpg");
+      background-size: cover;
+      background-position: center center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 75vh;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.5;
+    }
+
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      text-align: center;
+      font-size: 6vw;
+      margin-bottom: 0%;
+      margin-top: 0;
+      letter-spacing: 0.1em;
+    }
+
+    header p {
+      font-size: 4vw;
+      margin: 0;
+    }
+
+    section {
+      padding: 2vw;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .bg-about {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-about {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .p-about {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .p-resume {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .img-about {
+      display: block;
+      margin: auto;
+      max-width: 75%;
+      height: auto;
+      border-radius: 25%;
+    }
+
+    figcaption {
+      font-size: 1.5vw;
+      font-style: italic;
+      text-align: center;
+      padding: 1vh;
+    }
+
+    .bg-project {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-proj {
+      text-align: center;
+      font-size: 3vw;
+    } 
+
+    .p-proj {
+      text-align: center;
+      font-size: 2vw;
+    }
+
+    .img-proj {
+      width: 40vw;
+      height: 25vh;
+      border-radius: 10%;
+      display: block;
+      margin: auto;
+    } 
+
+    .bg-socialmedia {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-social {
+      text-align: center;
+      font-size: 3vw;
+    }
+
+    .p-social {
+      text-align: center;
+      font-size: 5vw
+    }
+
+    .social-ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;  
+    }
+
+    .social-ul a {
+      font-size: 30px;
+      margin: 0 10px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 40px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-github {
+      background: #fff;
+      color: #333;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  /* Change of Screen Size Styling */
+  /* Change of Screen Size Styling */
+  /* Change of Screen Size Styling */
+  /* Change of Screen Size Styling */
+  /* Change of Screen Size Styling */
+  /* Laptops */
+  @media only screen 
+  and (min-width: 900px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) 
+  {
+    body {
+      background-color: #F8F9F9;
+    }
+
+    nav {
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 0.5rem;
+      text-decoration: none;
+    }
+
+    header {
+      background-image: url("cjskalla.github.io/projects/trestle_trail.jpg");
+      background-size: cover;
+      background-position: center center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 75vh;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.5;
+    }
+
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      text-align: center;
+      font-size: 6vw;
+      margin-bottom: 0%;
+      margin-top: 0;
+      letter-spacing: 0.1em;
+    }
+
+    header p {
+      font-size: 4vw;
+      margin: 0;
+    }
+
+    section {
+      padding: 2vw;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .bg-about {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-about {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .p-about {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 2;
+    }
+
+    .p-resume {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .img-about {
+      display: block;
+      margin: auto;
+      max-width: 75%;
+      height: auto;
+      border-radius: 25%;
+    }
+
+    figcaption {
+      font-size: 1.5vw;
+      font-style: italic;
+      text-align: center;
+      padding: 1vh;
+    }
+
+    .bg-project {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-proj {
+      text-align: center;
+      font-size: 3vw;
+    } 
+
+    .p-proj {
+      text-align: center;
+      font-size: 2vw;
+    }
+
+    .img-proj {
+      width: 300px;
+      height: 175px;
+      border-radius: 10%;
+      display: block;
+      margin: auto;
+    } 
+
+    .bg-socialmedia {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-social {
+      text-align: center;
+      font-size: 3vw;
+    }
+
+    .p-social {
+      text-align: center;
+      font-size: 1.5vw;
+    }
+
+    .social-ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;  
+    }
+
+    .social-ul a {
+      font-size: 30px;
+      margin: 0 10px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 40px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-github {
+      background: #fff;
+      color: #333;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  /* Change of Screen Sizing */
+  /* Change of Screen Sizing */
+  /* Change of Screen Sizing */
+  /* Change of Screen Sizing */
+  /* Change of Screen Sizing */
+  /* Desktop */
+  @media only screen 
+  and (min-width: 1025px)
+  and (-webkit-min-device-pixel-ratio: 1) 
+  {
+    body {
+      background-color: #F8F9F9;
+    }
+
+    nav {
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 0.5rem;
+      text-decoration: none;
+    }
+
+    header {
+      background-image: url("cjskalla.github.io/projects/trestle_trail.jpg");
+      background-size: cover;
+      background-position: center center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 75vh;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.5;
+    }
+
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      text-align: center;
+      font-size: 6vw;
+      margin-bottom: 0%;
+      margin-top: 0;
+      letter-spacing: 0.1em;
+    }
+
+    header p {
+      font-size: 4vw;
+      margin: 0;
+    }
+
+    section {
+      padding: 2vw;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .bg-about {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-about {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .p-about {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 2;
+    }
+
+    .p-resume {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .img-about {
+      display: block;
+      margin: auto;
+      max-width: 75%;
+      height: auto;
+      border-radius: 25%;
+    }
+
+    figcaption {
+      font-size: 1.5vw;
+      font-style: italic;
+      text-align: center;
+      padding: 1vh;
+    }
+
+    .bg-project {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-proj {
+      text-align: center;
+      font-size: 3vw;
+    } 
+
+    .p-proj {
+      text-align: center;
+      font-size: 2vw;
+    }
+
+    .img-proj {
+      width: 300px;
+      height: 175px;
+      border-radius: 10%;
+      display: block;
+      margin: auto;
+    } 
+
+    .bg-socialmedia {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .h2-social {
+      text-align: center;
+      font-size: 3vw;
+    }
+
+    .p-social {
+      text-align: center;
+      font-size: 1.5vw;
+    }
+
+    .social-ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;  
+    }
+
+    .social-ul a {
+      font-size: 30px;
+      margin: 0 10px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 40px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-github {
+      background: #fff;
+      color: #333;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+</style>
