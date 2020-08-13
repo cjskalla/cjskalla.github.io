@@ -128,8 +128,8 @@
   }
 
   .img-proj {
-    width: 40vw;
-    height: 25vh;
+    width: 75px;
+    height: 50px;
     border-radius: 10%;
     display: block;
     margin: auto;
@@ -142,12 +142,12 @@
 
   .h2-social {
     text-align: center;
-    font-size: 3vw;
+    font-size: 3rem;
   }
 
   .p-social {
     text-align: center;
-    font-size: 5vw
+    font-size: 5rem;
   }
 
   .social-ul {
