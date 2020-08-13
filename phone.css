@@ -6,7 +6,7 @@
   }
 
   nav {
-    background-color: #696969;
+    background-color: #000;
     color: #fff;
     display: flex;
     justify-content: flex-end;
@@ -83,12 +83,13 @@
 
   .h2-about {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .p-about {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.5rem;
+    line-height: 2;
   }
 
   .p-resume {
