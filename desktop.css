@@ -24,7 +24,7 @@
     background-image: url("cjskalla.github.io/images/trestle_trail.jpg");
     background-size: cover;
     background-position: center center;
-    color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,12 +83,12 @@
 
   .h2-about {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .p-about {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 2;
   }
 
