@@ -1,198 +1,199 @@
 <style>
-  /* Smartphone styles */
-    body {
-      background-color: #F8F9F9;
-    }
 
-    nav {
-      background-color: #696969;
-      color: #fff;
-      display: flex;
-      justify-content: flex-end;
-      padding: 0.5rem;
-      font-size: 1rem;
-    }
+/* Smartphone  */
+  body {
+    background-color: #F8F9F9;
+  }
 
-    nav a {
-      color: #fff;
-      margin-left: 0.5rem;
-      text-decoration: none;
-    }
+  nav {
+    background-color: #696969;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
 
-    header {
-      background-image: url("cjskalla.github.io/projects/trestle_trail.jpg");
-      background-size: cover;
-      background-position: center center;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      height: 75vh;
-      position: relative;
-    }
+  nav a {
+    color: #fff;
+    margin-left: 0.5rem;
+    text-decoration: none;
+  }
 
-    header::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      opacity: 0.5;
-    }
+  header {
+    background-image: url("cjskalla.github.io/projects/trestle_trail.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+    position: relative;
+  }
 
-    header * {
-      position: relative;
-      z-index: 1;
-    }
+  header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+  }
 
-    header h1 {
-      text-align: center;
-      font-size: 6vw;
-      margin-bottom: 0%;
-      margin-top: 0;
-      letter-spacing: 0.1em;
-    }
+  header * {
+    position: relative;
+    z-index: 1;
+  }
 
-    header p {
-      font-size: 4vw;
-      margin: 0;
-    }
+  header h1 {
+    text-align: center;
+    font-size: 6vw;
+    margin-bottom: 0%;
+    margin-top: 0;
+    letter-spacing: 0.1em;
+  }
 
-    section {
-      padding: 2vw;
-    }
+  header p {
+    font-size: 4vw;
+    margin: 0;
+  }
 
-    .column {
-      float: left;
-      width: 50%;
-    }
+  section {
+    padding: 2vw;
+  }
 
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+  .column {
+    float: left;
+    width: 50%;
+  }
 
-    .bg-about {
-      background-color: #000;
-      color: #fff;
-    }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    .h2-about {
-      text-align: center;
-      font-size: 2rem;
-    }
+  .bg-about {
+    background-color: #000;
+    color: #fff;
+  }
 
-    .p-about {
-      text-align: center;
-      font-size: 1rem;
-    }
+  .h2-about {
+    text-align: center;
+    font-size: 2rem;
+  }
 
-    .p-resume {
-      text-align: center;
-      font-size: 1rem;
-    }
+  .p-about {
+    text-align: center;
+    font-size: 1rem;
+  }
 
-    .img-about {
-      display: block;
-      margin: auto;
-      max-width: 75%;
-      height: auto;
-      border-radius: 25%;
-    }
+  .p-resume {
+    text-align: center;
+    font-size: 1rem;
+  }
 
-    figcaption {
-      font-size: 1.5vw;
-      font-style: italic;
-      text-align: center;
-      padding: 1vh;
-    }
+  .img-about {
+    display: block;
+    margin: auto;
+    max-width: 75%;
+    height: auto;
+    border-radius: 25%;
+  }
 
-    .bg-project {
-      background-color: #000;
-      color: #fff;
-    }
+  figcaption {
+    font-size: 1.5vw;
+    font-style: italic;
+    text-align: center;
+    padding: 1vh;
+  }
 
-    .h2-proj {
-      text-align: center;
-      font-size: 3vw;
-    } 
+  .bg-project {
+    background-color: #000;
+    color: #fff;
+  }
 
-    .p-proj {
-      text-align: center;
-      font-size: 2vw;
-    }
+  .h2-proj {
+    text-align: center;
+    font-size: 3vw;
+  } 
 
-    .img-proj {
-      width: 40vw;
-      height: 25vh;
-      border-radius: 10%;
-      display: block;
-      margin: auto;
-    } 
+  .p-proj {
+    text-align: center;
+    font-size: 2vw;
+  }
 
-    .bg-socialmedia {
-      background-color: #000;
-      color: #fff;
-    }
+  .img-proj {
+    width: 40vw;
+    height: 25vh;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+  } 
 
-    .h2-social {
-      text-align: center;
-      font-size: 3vw;
-    }
+  .bg-socialmedia {
+    background-color: #000;
+    color: #fff;
+  }
 
-    .p-social {
-      text-align: center;
-      font-size: 5vw
-    }
+  .h2-social {
+    text-align: center;
+    font-size: 3vw;
+  }
 
-    .social-ul {
-      display: flex;
-      justify-content: center;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;  
-    }
+  .p-social {
+    text-align: center;
+    font-size: 5vw
+  }
 
-    .social-ul a {
-      font-size: 30px;
-      margin: 0 10px;
-    }
+  .social-ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+  }
 
-    .fa {
-      padding: 20px;
-      font-size: 40px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50%;
-    }
+  .social-ul a {
+    font-size: 30px;
+    margin: 0 10px;
+  }
 
-    .fa:hover {
-      opacity: 0.7;
-    }
+  .fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
 
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
+  .fa:hover {
+    opacity: 0.7;
+  }
 
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
 
-    .fa-github {
-      background: #fff;
-      color: #333;
-    }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
 
-    footer {
-      background-color: #000;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
+  .fa-github {
+    background: #fff;
+    color: #333;
+  }
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
 </style>
