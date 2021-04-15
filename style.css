@@ -1,6 +1,5 @@
 <style>
 
-/* Desktop */
   body {
     background-color: #F8F9F9;
   }
@@ -29,7 +28,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 75vh;
+    height: 50vh;
     position: relative;
   }
 
